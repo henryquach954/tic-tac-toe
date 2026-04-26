@@ -12,13 +12,20 @@ open tictactoe.html
 
 ## Git workflow
 
-Every change must be committed and pushed to GitHub (`henryquach954/tic-tac-toe`) after completion. Commit messages should be concise and describe *why*, not just *what*.
+Commit and push to GitHub (`henryquach954/tic-tac-toe`) after every meaningful unit of work — a feature added, a bug fixed, a refactor completed. Never batch multiple unrelated changes into one commit. The goal is that the repo always reflects the latest working state so no progress is ever lost.
 
 ```bash
 git add <files>
 git commit -m "short imperative summary"
 git push
 ```
+
+Commit message rules:
+- Start with an imperative verb: "Add", "Fix", "Update", "Remove"
+- Describe *why* the change was made, not just *what* changed
+- Keep the subject line under 72 characters
+- Always append the co-author trailer:
+  `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`
 
 ## Architecture
 
